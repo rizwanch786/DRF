@@ -1,7 +1,6 @@
 from ast import Return
 from functools import partial
 from django.shortcuts import render
-import pkg_resources
 from rest_framework.response import Response
 from .serializers import *
 from rest_framework.decorators import api_view
